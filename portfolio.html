@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="portfolio.css">
+    <link rel="icon" type="image/icon" href="images/pficon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <title>PortFolio</title>
+    
+</head>
+<body>
+  <header class="header ">
+    <nav class="navbar fixed-top  navbar-expand-lg navbar-light bg-light">
+        <div class="container  ">
+          <a class="navbar-brand" href="#"><img src="images/pflogo.png" style="mix-blend-mode:darken;"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav  mb-2 mb-lg-0">
+              <li class="nav-item ">
+                <a class="nav-link active text-dark "  aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#About">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#services">Services</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link text-dark dropdown-toggle" href="#portfolio" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  PortFolio
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#portfolio">My Projects</a></li>
+                    <li><a class="dropdown-item" href="#">Latest</a></li>
+                    <li><a class="dropdown-item" href="#">Following<li>
+                    <li><a class="dropdown-item" href="#UpComing">UpComing</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark " href="#contact"  >Contact</a>
+                </li>
+               
+                
+            </ul>
+           
+          </div>
+        </div>
+      </nav>
+    </header>
+      <main>
+        <section class="container  mt-5" id="home" data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="0">
+            <div class="scroll-right row d-flex ">
+               <div class="col-7 mt-5 p-4 ">
+                <p class="lead display-6">Hey There!</p>
+                <!-- <h1 id="name" class="text-primary display-2"></h1> -->
+                <div class="text-primary">
+                  <p class="lead display-5" >I am <span class="typed-text lead display-5 text-primary"></span><span class="cursor">&nbsp;</span></p>
+                </div>
+                <p class="lead display-6 text-muted">CREATIVE FRENTEND DEVELOPER</p>
+                <ul class="list-group list-group-horizontal m-2 ">
+                    <li class="me-3"><i class="fa-brands fa-square-x-twitter fa-2xl" ></i></li>
+                   <li class="me-3"><i class="fa-brands fa-skype fa-2xl"></i></li>
+                    <li class="me-3"><i class="fa-brands fa-instagram fa-2xl" ></i></li>
+                    <li class="me-3"><i class="fa-brands fa-dribbble fa-2xl" ></i></li>
+                    <li class="me-3"><i class="fa-brands fa-github fa-2xl" ></i></li> 
+                </ul>
+                <button id="btn-linear" class="btn text-white  m-2" type="button">See My Work</button>
+            </div>
+            <div class="scroll-right col-5   p-4 align-self-center mb-2 ">
+                <img src="images/web_developer.svg">
+            </div>
+             </div>
+            
+        </section>
+
+        <section class="container bg-muted mt-5  align-self-end" id="About" data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="0">
+          <p class="lead display-2 align-self-start">About Me</p>
+          <div class="row">
+                <div class="scroll-left  col-7 align-self-center mt-5"><img src="images/web_developer.svg"></div>
+                    <div class="scroll-left  col-5">
+                        
+                        <h2>Frontend Developer</h2>
+                        <p class="lead text-start">The front-end developer determines where to place images, 
+                            what the navigation should look like,
+                             and how to present the site.
+                             Much of their work involves ensuring the appearance and layout of the site or application is easy to navigate and intuitive for the user.</p>
+                             <button type="button" class="btn text-white " id="CV">Download CV</button>
+                    </div>
+            </div>
+            </div>
+        </section>
+
+          <section class="container bg-muted mt-5 mb-5" id="services" data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+            <p class="lead display-2 mt-5 mb-5" >My Services</p>
+            <div class="scroll-flip services-container  row justify-content-evenly ">
+             
+              <div class=" services-box card col-3" style="width: 18rem;">
+                <i class="fa-brands fa-html5" style="color: #4eb3c1;"></i>
+                
+              <div class="card-body">
+                <p class="card-text text-start"> Navigating The Internet Responsive Designs,Storage Function in the Browser. Data Entry Support,Creation of Web Documents. </p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+              </div>
+
+             
+
+                <div class=" services-box card col-3" style="width: 18rem;">
+                  <i class="fa-brands fa-bootstrap" style="color: #4eb3c1;"></i>
+                  <div class="card-body">
+                   
+                    <p class="card-text text-start">Bootstrap include for responsive web development,We are team of talented designers making websites with Bootstrap</p>
+                    <a href="#" class="btn btn-primary">Read More</a>
+                  </div>
+                  </div>
+
+                  <div class=" services-box card col-3" style="width: 18rem;">
+                    <i class="fa-brands fa-node-js" style="color: #4eb3c1;"></i>
+                    <div class="card-body">
+                      <p class="card-text text-start">adding interactive behavior to web pages like zooming in and out or playing audio/video. creating web and mobile apps, .</p>
+                      <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+              </div>
+
+            </div>
+          </section>
+
+
+        <section class="container  bg-muted mt-5 mb-5 " id="portfolio" data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+          <p class="lead display-2 mt-5 mb-5">Portfolio</p>
+            <div class="scroll-bottom services-container row   justify-content-around ">
+               
+                <div id="card-1" class="card  services-box " style="width: 18rem;">
+                  <img src="images/rbpf.jpg" class="card-img-top mt-4" alt="Redbus" style="mix-blend-mode:multiply;" >
+                  <div class="card-body">
+                    <h5 class="card-title">Redbus</h5>
+                    <p class="card-text text-start">redBus is an Indian online bus ticket booking company that provides bus ticket booking through its website .</p>
+                    <a href="#" class="btn btn-primary">Read More</a>
+                  </div>
+                </div>
+                <div id="card-2" class="card  services-box " style="width: 18rem;">
+                  <img src="images/bootstrapimg.png" class="card-img-top mt-1 " alt="Solutions" style="mix-blend-mode:darken;" >
+                  <div class="card-body">
+                    <h5 class="card-title">Solutions</h5>
+                    <p class="card-text text-start ">A website can improve a business’s online presence and credibility.business can be easily using beginner-friendly website;</p>
+                    <a href="#" class="btn btn-primary">Read More</a>
+                  </div>
+                </div>
+                <div id="card-3" class="card  services-box " style="width: 18rem;">
+                  <img src="images/pfle1.png" class="card-img-top mt-3 align-self-end" alt="Le Meridian" style="mix-blend-mode:darken;" >
+                  <div class="card-body">
+                    <h5 class="card-title">Le Meridien</h5>
+                    <p class="card-text text-start">Le Méridien is an upscale, design-focused international hotel brand with a European perspective.</p>
+                    <a href="#" class="btn btn-primary">Read More</a>
+                  </div>
+                </div>
+                
+             
+                  
+                </div>
+            </div>
+        </section>
+      </main>
+
+      <section class="contact container  bg-muted mt-5 mb-5 " id="UpComing" data-bs-spy="scroll" data-bs-toggle=".navbar" data-bs-offset="50">
+        <p class="lead display-2 mt-5 mb-5">UpComing</p>
+        <div id="carouselExampleDark" class="scroll-scale carousel carousel-dark slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active  " data-bs-interval="2000"  >
+              <img src="images/upcoming8.png" class="d-block    " alt="..." style="height: 500px; width: 100%;">
+              <div class="carousel-caption d-none d-md-block">
+                
+            
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="images/upcoming2.png" class="d-block w-80" alt="..." style="height: 500px; width: 100%;">
+              <div class="carousel-caption d-none d-md-block">
+                
+              
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="images/upcoming1.png" class="d-block w-80" alt="..." style="height: 500px;width: 100%;">
+              <div class="carousel-caption d-none d-md-block">
+                
+                
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+
+      <section class="scroll-scale contact container  bg-muted mt-5 mb-5 " id="contact" data-bs-spy="scroll" data-bs-toggle=".navbar" data-bs-offset="50">
+        <h2 class="heading lead display-2 mt-5 mb-5 justify-content-center d-flex ">Contact <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+           
+        </form>
+        <input type="submit" id="btn1" value="Send Message" class="btn" style="color: white;">
+    </section>
+
+    <footer class="footer">
+      <div class="footer-text">
+          <p>Copyright &copy; 2023 | All Rights Reserved.</p>
+          <p id="js"></p>
+      </div>
+
+    
+  </footer>
+
+<script>
+  const typedTextSpan = document.querySelector(".typed-text");
+const cursorSpan = document.querySelector(".cursor");
+
+const textArray = ["DALTON SHAROON" ];
+const typingDelay = 200;
+const erasingDelay = 100;
+const newTextDelay = 2000; // Delay between current and next text
+let textArrayIndex = 0;
+let charIndex = 0;
+
+function type() {
+  if (charIndex < textArray[textArrayIndex].length) {
+    if(!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
+    typedTextSpan.textContent += textArray[textArrayIndex].charAt(charIndex);
+    charIndex++;
+    setTimeout(type, typingDelay);
+  } 
+  else {
+    cursorSpan.classList.remove("typing");
+  	setTimeout(erase, newTextDelay);
+  }
+}
+
+function erase() {
+	if (charIndex > 0) {
+    if(!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
+    typedTextSpan.textContent = textArray[textArrayIndex].substring(0, charIndex-1);
+    charIndex--;
+    setTimeout(erase, erasingDelay);
+  } 
+  else {
+    cursorSpan.classList.remove("typing");
+    textArrayIndex++;
+    if(textArrayIndex>=textArray.length) textArrayIndex=0;
+    setTimeout(type, typingDelay + 1100);
+  }
+}
+
+document.addEventListener("DOMContentLoaded", function() { // On DOM Load initiate the effect
+  if(textArray.length) setTimeout(type, newTextDelay + 250);
+});
+
+
+const observer= new IntersectionObserver((entries)=>{
+    entries.forEach((entry)=>{
+        if(entry.isIntersecting){
+            entry.target.classList.add("show-items");
+        }
+        else{
+            entry.target.classList.remove("show-items");
+        }
+        });
+    });
+    const scrollScale=document.querySelectorAll(".scroll-scale");
+    scrollScale.forEach((el)=>observer.observe(el));
+
+    const scrollBottom=document.querySelectorAll(".scroll-bottom");
+    scrollBottom.forEach((el)=>observer.observe(el));
+
+    const scrollLeft=document.querySelectorAll(".scroll-left");
+    scrollLeft.forEach((el)=>observer.observe(el));
+
+    const scrollRight=document.querySelectorAll(".scroll-right");
+    scrollRight.forEach((el)=>observer.observe(el));
+
+    const scrollFlip=document.querySelectorAll(".scroll-flip");
+    scrollFlip.forEach((el)=>observer.observe(el));
+</script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script
+    src="https://kit.fontawesome.com/612a9f7d28.js"
+    crossorigin="anonymous"
+  ></script> 
+  <script src="https://unpkg.com/scrollreveal"></script>
+ 
+  <!-- swiper js -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+
+
+ 
+</body>
+</html>
